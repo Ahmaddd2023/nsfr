@@ -1,0 +1,101 @@
+<div class="accordion">
+  <div class="accordion-column">
+    <div class="accordion-item" (click)="toggleAccordion(1)" [ngClass]="{ 'active': isAccordionOpen(1) }">
+      <div class="accordion-header" [@headerBackground]="isAccordionOpen(1) ? 'expanded' : 'collapsed'">
+        <h3 class="brn-title-20">
+            Are you in doubts if your idea can be stolen by us?</h3>
+        <div class="arrow" [@rotate]="isAccordionOpen(1) ? 'expanded' : 'collapsed'">
+          <img src="/assets/img/carbon_add.svg" *ngIf="!isAccordionOpen(1)">
+          <img src="/assets/img/carbon_add.svg" *ngIf="isAccordionOpen(1)">
+        </div>
+      </div>
+      <div class="accordion-content" [@expand]="isAccordionOpen(1) ? 'expanded' : 'collapsed'">
+          <div class="accordion-list">
+        <ul class="brn-list">
+            <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                Not needed too many boring and complicated contracts and procedures
+                </li>
+                <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                    Simple and clear agreement</li>
+                <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                You’ll see the first our working steps before you can expect it</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <div class="accordion-item" (click)="toggleAccordion(2)" [ngClass]="{ 'active': isAccordionOpen(2) }">
+      <div class="accordion-header" [@headerBackground]="isAccordionOpen(2) ? 'expanded' : 'collapsed'">
+        <h3 class="brn-title-20">
+            You are not so well-known person and you need marketing?</h3>
+        <div class="arrow" [@rotate]="isAccordionOpen(2) ? 'expanded' : 'collapsed'">
+          <img src="/assets/img/carbon_add.svg" *ngIf="!isAccordionOpen(2)">
+          <img src="/assets/img/carbon_add.svg" *ngIf="isAccordionOpen(2)">
+        </div>
+      </div>
+      <div class="accordion-content" [@expand]="isAccordionOpen(2) ? 'expanded' : 'collapsed'">
+          <div class="accordion-list">
+        <ul class="brn-list">
+            <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                Not needed too many boring and complicated contracts and procedures
+                </li>
+                <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                    Simple and clear agreement</li>
+                <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                You’ll see the first our working steps before you can expect it</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-column">
+    <div class="accordion-item" (click)="toggleAccordion(3)" [ngClass]="{ 'active': isAccordionOpen(3) }">
+      <div class="accordion-header" [@headerBackground]="isAccordionOpen(3) ? 'expanded' : 'collapsed'">
+       <h3 class="brn-title-20">
+           Difficult to explain your idea?</h3>
+        <div class="arrow" [@rotate]="isAccordionOpen(3) ? 'expanded' : 'collapsed'">
+          <img src="/assets/img/carbon_add.svg" *ngIf="!isAccordionOpen(3)">
+          <img src="/assets/img/carbon_add.svg" *ngIf="isAccordionOpen(3)">
+        </div>
+      </div>
+      <div class="accordion-content" [@expand]="isAccordionOpen(3) ? 'expanded' : 'collapsed'">
+          <div class="accordion-list">
+        <ul class="brn-list">
+            <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                Not needed too many boring and complicated contracts and procedures
+                </li>
+                <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                    Simple and clear agreement</li>
+                <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                You’ll see the first our working steps before you can expect it</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <div class="accordion-item" (click)="toggleAccordion(4)" [ngClass]="{ 'active': isAccordionOpen(4) }">
+      <div class="accordion-header" [@headerBackground]="isAccordionOpen(4) ? 'expanded' : 'collapsed'">
+        <h3 class="brn-title-20">
+            Scared about the lawyer procedures?</h3>
+        <div class="arrow" [@rotate]="isAccordionOpen(4) ? 'expanded' : 'collapsed'">
+          <img src="/assets/img/carbon_add.svg" *ngIf="!isAccordionOpen(4)">
+        <img src="/assets/img/carbon_add.svg" *ngIf="isAccordionOpen(4)">
+        </div>
+      </div>
+      <div class="accordion-content" [@expand]="isAccordionOpen(4) ? 'expanded' : 'collapsed'">
+        <div class="accordion-list">
+        <ul class="brn-list">
+            <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                Not needed too many boring and complicated contracts and procedures
+                </li>
+                <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                    Simple and clear agreement</li>
+                <li class="brn-marker"><img class="brn-marker-logo" src="/assets/img/solar_check-circle-linear.svg">
+                You’ll see the first our working steps before you can expect it</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
